@@ -50,7 +50,7 @@ public class TextTabs extends AppCompatActivity {
 		tabLayout.setupWithViewPager(viewPager);
 
 		// Uncomment the LINE BELOW to see TABS with both TEXT+ICONS
-		setTabIcons();
+		//setTabIcons();
 	}
 
 	// Initialise Activity Data.
