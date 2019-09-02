@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".tabs.TextTabs"/>
+        <activity android:name=".tabs.IconTabs"/>
     </application>
 
 </manifest>
