@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.tabssample.R;
+import com.example.tabssample.tabs.CustomViewTabs;
 import com.example.tabssample.tabs.IconTabs;
+import com.example.tabssample.tabs.ScrollTabs;
 import com.example.tabssample.tabs.TextTabs;
 
  public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -53,11 +55,11 @@ import com.example.tabssample.tabs.TextTabs;
                 break;
 
             case R.id.btnScrollableTabs:
-
+                i = new Intent(MainActivity.this, ScrollTabs.class);
                 break;
 
             case R.id.btnCustomIconTabs:
-
+                i = new Intent(MainActivity.this, CustomViewTabs.class);
                 break;
 
         }
