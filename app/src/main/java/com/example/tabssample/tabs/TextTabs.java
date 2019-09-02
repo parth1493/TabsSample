@@ -8,11 +8,12 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.sriyanksiddhartha.materialtabs.R;
-import com.sriyanksiddhartha.materialtabs.adapters.TextTabsAdapter;
-import com.sriyanksiddhartha.materialtabs.fragments.FragmentOne;
-import com.sriyanksiddhartha.materialtabs.fragments.FragmentThree;
-import com.sriyanksiddhartha.materialtabs.fragments.FragmentTwo;
+
+import com.example.tabssample.R;
+import com.example.tabssample.adapters.TextTabsAdapter;
+import com.example.tabssample.fragments.FragmentOne;
+import com.example.tabssample.fragments.FragmentThree;
+import com.example.tabssample.fragments.FragmentTwo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +50,7 @@ public class TextTabs extends AppCompatActivity {
 		tabLayout.setupWithViewPager(viewPager);
 
 		// Uncomment the LINE BELOW to see TABS with both TEXT+ICONS
-		//setTabIcons();
+		setTabIcons();
 	}
 
 	// Initialise Activity Data.
