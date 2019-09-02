@@ -56,10 +56,12 @@ import com.example.tabssample.tabs.TextTabs;
 
             case R.id.btnScrollableTabs:
                 i = new Intent(MainActivity.this, ScrollTabs.class);
+                startActivity(i);
                 break;
 
             case R.id.btnCustomIconTabs:
                 i = new Intent(MainActivity.this, CustomViewTabs.class);
+                startActivity(i);
                 break;
 
         }
